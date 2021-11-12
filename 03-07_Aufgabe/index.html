@@ -23,5 +23,46 @@
         <div id="regions_div" style="width: auto; height: 95vh"></div>
       </div>
     </div>
+
+    <div id="overlay">
+      <div id="inner">
+        <div class="pointer" onclick="back()">
+          <img src="../Files/arrow_circle_left_black_24dp.svg" alt="Back" />
+        </div>
+
+        <div class="flex">
+          <div class="country">
+            <img
+              height="100%"
+              width="100%"
+              src="../Files/Karte_Bundesrepublik_Deutschland.svg"
+              alt="Country"
+            />
+          </div>
+
+          <div class="info">
+            <div class="graphs">
+              <div id="pie-chart"></div>
+              <div id="bars"></div>
+              <div id="area"></div>
+            </div>
+            <div class="selection">
+              <div class="pointer option" id="pie-icon" onclick="setPie()">
+                <img src="../Files/pie_chart_black_24dp.svg" alt="Pie Chart" />
+              </div>
+              <div class="pointer option" id="bars-icon" onclick="setBars()">
+                <img
+                  src="../Files/leaderboard_black_24dp.svg"
+                  alt="Bar Chart"
+                />
+              </div>
+              <div class="pointer option" id="area-icon" onclick="setArea()">
+                <img src="../Files//insights_black_24dp.svg" alt="Area Chart" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
