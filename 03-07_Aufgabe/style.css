@@ -1,22 +1,28 @@
+body {
+  margin: 16px;
+}
 .outer {
   cursor: pointer;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 10px 0px;
   overflow: hidden;
   background-color: #f7feff;
 }
 #regions_div {
   margin: auto;
 }
-#overlay {
+#overlay,
+#overlay2 {
   position: absolute;
   width: 0;
   height: 0;
   top: 0;
   left: 0;
+  right: 0;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
+  max-width: 1100px;
+  margin: auto;
 }
 #inner {
   background-color: white;
@@ -37,15 +43,59 @@
   align-items: center;
   justify-content: space-between;
 }
+.flex-cont {
+  display: flex;
+  width: 100%;
+}
 .country {
-  height: 100%;
   max-width: 50%;
   min-width: 40%;
+  width: 100%;
   padding-right: 16px;
+  height: 100%;
+  display: grid;
+}
+.overflow {
+  overflow: hidden;
+}
+.country-img,
+.animals-container {
+  grid-row: 1;
+  grid-column: 1;
+}
+.animals-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.animal1 {
+  grid-column: 3;
+  padding-top: 16px;
+}
+.animal2 {
+  grid-column: 5;
+  grid-row: 2;
+}
+.animal3 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.animal4 {
+  grid-column: 4;
+  grid-row: 4;
+}
+.animal {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.animal:hover {
+  transform: scale(1.2);
 }
 .info {
   display: flex;
   min-width: 50%;
+  height: 100%;
+  align-items: center;
 }
 #pie-chart {
   width: 100%;
