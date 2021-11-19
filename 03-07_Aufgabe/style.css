@@ -1,5 +1,7 @@
 body {
   margin: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .outer {
   cursor: pointer;
@@ -36,6 +38,7 @@ body {
 }
 .pointer {
   cursor: pointer;
+  width: fit-content;
 }
 .flex {
   display: flex;
@@ -86,7 +89,7 @@ body {
 }
 .animal {
   cursor: pointer;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .animal:hover {
   transform: scale(1.2);
@@ -128,4 +131,23 @@ body {
 #bars-icon,
 #area-icon {
   opacity: 0.2;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.link {
+  font-size: 10px;
+  text-align: center;
+}
+.link a {
+  cursor: pointer;
+}
+.grid {
+  padding-top: 16px;
+  height: calc(100% - 80px);
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
