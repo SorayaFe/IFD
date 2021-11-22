@@ -195,15 +195,17 @@ body {
   position: absolute;
 }
 #info1 {
-  margin-left: -130px;
+  margin-left: -60px;
+  margin-top: 30px;
 }
 #info2 {
   right: 0;
-  margin-right: 100px;
-  margin-top: 230px;
+  margin-right: 90px;
+  margin-top: 360px;
 }
 #info3 {
   right: 0;
+  margin-bottom: 230px;
   margin-right: 160px;
-  margin-top: 310px;
+  bottom: 0;
 }
