@@ -10,8 +10,15 @@ body {
   overflow: hidden;
   background-color: #f7feff;
 }
+.map-title {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 16px;
+}
 #regions_div {
   margin: auto;
+  height: calc(95vh - 50px) !important;
 }
 #overlay,
 #overlay2 {
