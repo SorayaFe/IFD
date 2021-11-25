@@ -11,4 +11,5 @@
 
 #### Prototyp
 
-- [03-07 Prototyp](https://sorayafe.github.io/IFD/03-07_Aufgabe/index.html)
+- [03-06 Prototyp](https://sorayafe.github.io/IFD/03-06_Aufgabe/index.html)
+- [03-06 Leitfaden](https://sorayafe.github.io/IFD/03-06_Aufgabe/leitfaden.html)
