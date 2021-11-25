@@ -191,21 +191,28 @@ body {
   background-color: #c4c4c4;
   overflow: hidden;
   padding: 0px;
-  font-size: 12px;
+  font-size: 14px;
   position: absolute;
 }
 #info1 {
-  margin-left: -60px;
-  margin-top: 30px;
+  margin-left: -140px;
+  margin-top: -10px;
 }
 #info2 {
   right: 0;
   margin-right: 90px;
-  margin-top: 360px;
+  bottom: 0;
+  margin-bottom: 280px;
 }
 #info3 {
   right: 0;
-  margin-bottom: 230px;
-  margin-right: 160px;
+  margin-bottom: 130px;
+  margin-right: 170px;
   bottom: 0;
+}
+.big {
+  transform: scale(1.2);
+}
+.small {
+  transform: scale(1);
 }
