@@ -223,3 +223,11 @@ body {
 .small {
   transform: scale(1);
 }
+
+/* findings */
+.findings {
+  max-width: 700px;
+}
+.findings li {
+  margin-bottom: 10px;
+}
