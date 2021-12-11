@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script src="https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <link rel="stylesheet" href="../03-06_Aufgabe/style.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Prototyp</title>
+  </head>
+
+  <body>
+    <div class="outer">
+      <div class="map-title">Vom Aussterben bedrohte Tiere weltweit</div>
+      <div id="map-container">
+        <div id="regions_div" style="width: auto; height: 95vh"></div>
+      </div>
+    </div>
+
+    <div id="overlay">
+      <div id="inner">
+        <div class="pointer" onclick="back(1)">
+          <img src="../Files/arrow_circle_left_black_24dp.svg" alt="Back" />
+        </div>
+
+        <div class="flex">
+          <div class="country overflow">
+            <div class="country-img overflow">
+              <img
+                class="overflow"
+                height="100%"
+                width="100%"
+                src="../Files/Karte_Bundesrepublik_Deutschland.svg"
+                alt="Country"
+              />
+            </div>
+            <div class="animals-container overflow">
+              <div class="animal1 overflow animal big">
+                <img
+                  class="overflow"
+                  width="100%"
+                  src="../Files/9e97d0b5ba64eb0f7eb8da68aa4b5440.png"
+                  alt="Animal"
+                />
+              </div>
+              <div class="animal2 overflow animal big">
+                <img
+                  class="overflow"
+                  width="100%"
+                  src="../Files/9e97d0b5ba64eb0f7eb8da68aa4b5440.png"
+                  alt="Animal"
+                />
+              </div>
+              <div class="animal3 overflow animal big">
+                <img
+                  class="overflow"
+                  width="100%"
+                  src="../Files/9e97d0b5ba64eb0f7eb8da68aa4b5440.png"
+                  alt="Animal"
+                />
+              </div>
+              <div class="animal4 overflow animal big">
+                <img
+                  class="overflow"
+                  width="100%"
+                  src="../Files/9e97d0b5ba64eb0f7eb8da68aa4b5440.png"
+                  alt="Animal"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="flex-cont">
+              <div class="graphs">
+                <div id="pie-chart"></div>
+                <div id="bars"></div>
+                <div id="area"></div>
+              </div>
+              <div class="selection">
+                <div class="pointer option" id="pie-icon" onclick="setPie()">
+                  <img
+                    src="../Files/pie_chart_black_24dp.svg"
+                    alt="Pie Chart"
+                  />
+                </div>
+                <div class="pointer option" id="bars-icon" onclick="setBars()">
+                  <img
+                    src="../Files/leaderboard_black_24dp.svg"
+                    alt="Bar Chart"
+                  />
+                </div>
+                <div class="pointer option" id="area-icon" onclick="setArea()">
+                  <img
+                    src="../Files/insights_black_24dp.svg"
+                    alt="Area Chart"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="overlay2">
+      <div id="inner">
+        <div class="pointer" onclick="back(2)">
+          <img src="../Files/arrow_circle_left_black_24dp.svg" alt="Back" />
+        </div>
+        <div class="title">Der Feldhase</div>
+        <div class="grid">
+          <div style="height: 100%" class="animal-img-cont">
+            <img height="90%" src="../Files/Feldhase300a.png" alt="Feldhase" />
+          </div>
+          <div class="icons-cont">
+            <div class="info-icon icon1">
+              <img src="../Files/info_white_24dp.svg" alt="Area Chart" />
+            </div>
+            <div class="animal-info" id="info12">
+              Es gibt ca. 3.000.000 Feldhasen in Deutschland. Betrachtet man die
+              Bevölkerungszahl Deutschlands, kommen 27 Menschen auf einen Hasen.
+            </div>
+            <div class="info-icon icon2">
+              <img src="../Files/info_white_24dp.svg" alt="Area Chart" />
+            </div>
+            <div class="animal-info" id="info22">
+              Durch die Intensivierung in der Landwirtschaft verliert der
+              Feldhase an Lebensraum und Nahrungsangebot.
+            </div>
+            <div class="info-icon icon3">
+              <img src="../Files/info_white_24dp.svg" alt="Area Chart" />
+            </div>
+            <div class="animal-info" id="info32">
+              Neue Gewerbe- und Siedlungsgebiete, sowie das zunehmende
+              Zerschneiden von Landschaften durch z.B. Straßenbau machen ihm das
+              Leben zusätzlich schwer.
+            </div>
+          </div>
+        </div>
+        <div class="link link2">
+          <a
+            href="https://www.rote-liste-zentrum.de/de/Detailseite.html?species_uuid=83a2bd1d-b604-41bf-b10f-4324d6d27b0a&q=feldhase"
+            target="_blank"
+            >Für weitere Infos hier klicken!</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

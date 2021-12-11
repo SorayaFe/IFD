@@ -231,3 +231,67 @@ body {
 .findings li {
   margin-bottom: 10px;
 }
+
+/* revision */
+.mr {
+  margin-right: 16px;
+}
+.mb {
+  margin-bottom: 32px;
+}
+#info12 {
+  margin-left: -100px;
+  margin-top: -10px;
+  width: 250px;
+}
+#info22 {
+  right: 0;
+  margin-right: 90px;
+  bottom: 0;
+  margin-bottom: 310px;
+  width: 200px;
+}
+#info32 {
+  right: 0;
+  margin-bottom: 140px;
+  margin-right: 170px;
+  bottom: 0;
+  width: 250px;
+}
+.link2 {
+  font-size: 15px;
+}
+.color-info {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.part::marker,
+.p {
+  color: orange;
+  background-color: orange;
+  font-weight: bold;
+}
+.yes::marker,
+.y {
+  color: rgb(74, 211, 74);
+  background-color: rgb(74, 211, 74);
+  font-weight: bold;
+}
+.no::marker,
+.n {
+  color: red;
+  background-color: red;
+  font-weight: bold;
+}
+.extra::marker,
+.e {
+  color: purple;
+  background-color: purple;
+  font-weight: bold;
+}
+.ac {
+  align-items: center;
+  width: auto;
+  margin-right: 16px;
+}

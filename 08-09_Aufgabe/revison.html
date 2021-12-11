@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../03-06_Aufgabe/style.css" />
+    <title>Findings</title>
+  </head>
+  <body>
+    <div class="findings">
+      <h3>Ergebnisse</h3>
+      <p>Die Nutzer hatten keine Probleme die gestellten Aufgaben zu lösen.</p>
+      <p>
+        Die Anwendung und der Zweck war ihnen klar, es gab jedoch ein paar
+        Anmerkungen, wie noch mehr Klarheit geschaffen werden kann
+      </p>
+      <ol>
+        <li>
+          Mehrere Nutzer hatten die Anmerkung, dass es sinnvoll wäre, könnten
+          sie auf den Ländern bereits ein Kürzel sehen, um welches Land es sich
+          handelt. Die Begründung dafür war, dass man nicht automatisch bei
+          jedem Land weiß, welches es ist
+        </li>
+        <li>
+          Einem Nutzer war nicht ganz klar, was in der zweiten Grafik
+          dargestellt wird und was genau die Anzahl zu bedeuten hat
+        </li>
+        <li>
+          Ein Nutzer erwähnte, dass ihm die Animation der Info-Texte für ein
+          Tier nicht gefällt
+        </li>
+        <li>
+          Das Bild des Feldhasen wurde von einem Nutzer als "gruselig" empfunden
+        </li>
+        <li>
+          Ein Nutzer hat die Karte so weit gezoomt, dass nichts mehr zu erkennen
+          war, was für Verwirrung sorgte
+        </li>
+      </ol>
+
+      <h3>Überarbeitung</h3>
+
+      <div class="flex-cont">
+        <div class="flex-cont ac">
+          <div class="y color-info"></div>
+          <div>Umgesetzt</div>
+        </div>
+        <div class="flex-cont ac">
+          <div class="p color-info"></div>
+          <div>Teilweise umgesetzt</div>
+        </div>
+        <div class="flex-cont ac">
+          <div class="n color-info"></div>
+          <div>Nicht umgesetzt</div>
+        </div>
+        <div class="flex-cont ac">
+          <div class="e color-info"></div>
+          <div>Zusätzlich umgesetzt</div>
+        </div>
+      </div>
+
+      <ol>
+        <li class="part">
+          Da es mir technisch nicht möglich war, sowohl den Farbgrad des Landes
+          als auch den Namen auf einem Land gleichzeitig darzustellen (ich habe
+          nur entweder eins von beidem geschafft), wurde dieser Punkt nicht
+          exakt umgesetzt. Allerdings gibt es nun beim Hovern über ein Land ein
+          Tooltip, welches den Namen des Landes und die Anzahl der bedrohten
+          Tiere anzeigt.
+        </li>
+        <div class="flex-cont mb">
+          <div class="mr">
+            <p>Vorher:</p>
+            <img src="../Files/countryv1.PNG" alt="before" />
+          </div>
+          <div>
+            <p>Nachher:</p>
+            <img src="../Files/countryv2.PNG" alt="after" />
+          </div>
+        </div>
+
+        <li class="yes">
+          Die Überschrift der Grafik wurde angepasst, um die Aussage der
+          dargestellten Daten deutlicher zu machen
+        </li>
+        <div class="flex-cont mb">
+          <div class="mr">
+            <p>Vorher:</p>
+            <img src="../Files/headlinev1.PNG" alt="before" />
+          </div>
+          <div>
+            <p>Nachher:</p>
+            <img src="../Files/headlinev2.PNG" alt="after" />
+          </div>
+        </div>
+
+        <li class="yes">
+          Animation wurde angepasst, sodass sie nun flüssiger und kontrollierter
+          aussieht.
+        </li>
+
+        <li class="no">
+          Bild wurde nicht ersetzt. Bemerkung des Nutzer ist extrem objektiv.
+          Das momentane Bild zeigt das normale Aussehen eines Feldhasen, so
+          sehen Feldhasen nunmal aus.
+        </li>
+
+        <li class="yes">
+          Die Karte hat nun einen maximalen Zoom, ab welchem nicht weiter
+          reingezoomt werden kann. So wird verhindert, dass Nutzer zu weit in
+          die Karten zoomen können bis nichts mehr zu erkennen ist. Außerdem
+          kann nicht mehr bis ins unendliche aus der Karte heraus gezoomt
+          werden, bis kaum noch etwas zu erkennen ist. Das herauszoomen ist auf
+          die größe der Karten beschränkt worden. Somit wird ingesamt die
+          Bedienung der Karte verbessert und Fehler und potenzielle Verwirrung
+          der Nutzer durch falsche Darstellung vermieden.
+        </li>
+
+        <li class="extra">
+          Zusätzlich wurde die Schriftgröße des Links erhöht, sodass dieser
+          etwas auffälliger ist.
+        </li>
+
+        <li class="extra">
+          Auch wurden die Überschriften der anderen zwei Grafiken noch etwas
+          deutlicher vormuliert.
+        </li>
+        <div class="flex-cont">
+          <div class="mr">
+            <p>Vorher:</p>
+            <img src="../Files/headline2v1.PNG" alt="before" />
+          </div>
+          <div>
+            <p>Nachher:</p>
+            <img src="../Files/headline2v2.PNG" alt="after" />
+          </div>
+        </div>
+        <div class="flex-cont mb">
+          <div class="mr">
+            <p>Vorher:</p>
+            <img src="../Files/headline3v1.PNG" alt="before" />
+          </div>
+          <div>
+            <p>Nachher:</p>
+            <img src="../Files/headline3v2.PNG" alt="after" />
+          </div>
+        </div>
+      </ol>
+    </div>
+  </body>
+</html>

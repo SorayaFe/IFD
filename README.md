@@ -17,3 +17,5 @@
 #### Testing
 
 - [07 Findings](https://sorayafe.github.io/IFD/07_Aufgabe/findings.html)
+- [08-09 Überarbeitung](https://sorayafe.github.io/IFD/08-09_Aufgabe/revision.html)
+- [08-09 Überarbeiteter Prototyp](https://sorayafe.github.io/IFD/08-09_Aufgabe/index.html)
