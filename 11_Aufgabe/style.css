@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(221, 208, 221);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+#text {
+  color: black;
+}
+#circle {
+  background-color: #a4deff;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgb(94, 0, 94);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  animation: shadow 4.5s 1;
+  -moz-animation: shadow 4.5s 1;
+  -webkit-animation: shadow 4.5s 1;
+  -o-animation: shadow 4.5s 1;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+  50% {
+    box-shadow: 0 0 2px rgb(94, 0, 94);
+  }
+  100% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+}
+@-moz-keyframes shadow {
+  0% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+  50% {
+    box-shadow: 0 0 2px rgb(94, 0, 94);
+  }
+  100% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+}
+
+@-webkit-keyframes shadow {
+  0% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+  50% {
+    box-shadow: 0 0 2px rgb(94, 0, 94);
+  }
+  100% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+}
+
+@-o-keyframes shadow {
+  0% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+  50% {
+    box-shadow: 0 0 2px rgb(94, 0, 94);
+  }
+  100% {
+    box-shadow: 0 0 12px rgb(94, 0, 94);
+  }
+}
