@@ -27,6 +27,6 @@
 
 - [10 Flowchart](https://sorayafe.github.io/IFD/10_Aufgabe/flowchart.html)
 
-#### Aufgabe 11
+#### Aufgabe 11.
 
 - [11 VUI](https://sorayafe.github.io/IFD/11_Aufgabe/vui.html)
