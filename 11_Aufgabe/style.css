@@ -20,7 +20,7 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 12px rgb(94, 0, 94);
+  box-shadow: 0 0 15px rgb(94, 0, 94);
   display: grid;
   align-items: center;
   justify-content: center;
@@ -33,47 +33,47 @@ body {
 
 @keyframes shadow {
   0% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
   50% {
     box-shadow: 0 0 2px rgb(94, 0, 94);
   }
   100% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
 }
 @-moz-keyframes shadow {
   0% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
   50% {
     box-shadow: 0 0 2px rgb(94, 0, 94);
   }
   100% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
 }
 
 @-webkit-keyframes shadow {
   0% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
   50% {
     box-shadow: 0 0 2px rgb(94, 0, 94);
   }
   100% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
 }
 
 @-o-keyframes shadow {
   0% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
   50% {
     box-shadow: 0 0 2px rgb(94, 0, 94);
   }
   100% {
-    box-shadow: 0 0 12px rgb(94, 0, 94);
+    box-shadow: 0 0 15px rgb(94, 0, 94);
   }
 }
