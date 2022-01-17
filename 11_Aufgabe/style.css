@@ -6,7 +6,7 @@ body {
 .container {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(221, 208, 221);
+  background-color: #f6f0fa;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -19,6 +19,7 @@ body {
   transition: background-color 0.5s ease-in-out;
   height: 200px;
   width: 200px;
+  margin: auto;
   border-radius: 50%;
   box-shadow: 0 0 15px rgb(94, 0, 94);
   display: grid;
@@ -29,6 +30,11 @@ body {
   -webkit-animation: shadow 4.5s 1;
   -o-animation: shadow 4.5s 1;
   animation-iteration-count: infinite;
+}
+#input {
+  text-align: center;
+  margin-top: 32px;
+  width: 350px;
 }
 
 @keyframes shadow {
